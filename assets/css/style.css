@@ -1233,13 +1233,20 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
-@media (min-width: 450px) {
+@media (min-width: 344px) {
+  .fizzname
+  {
+    font-size: 10px;
+  }
+  .titlebanner{
+    width: 50%;
+  }
 
   /**
    * client
    */
 
-  .clients-item { min-width: calc(33.33% - 10px); }
+  .clients-item { min-width: calc(33% - 10px); }
 
 
 
@@ -1260,7 +1267,7 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 580px screen
  */
 
-@media (min-width: 580px) {
+@media (min-width: 544px) {
 
   /**
    * CUSTOM PROPERTY
@@ -1289,7 +1296,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 520px;
+    width: 320px;
     margin-inline: auto;
     padding: 30px;
   }
@@ -1305,7 +1312,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .icon-box {
-    width: 48px;
+    width: 100px;
     height: 48px;
     border-radius: 12px;
     font-size: 18px;
@@ -1375,9 +1382,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .navbar { border-radius: 20px 20px 0 0; }
 
-  .navbar-list { gap: 20px; }
+  .navbar-list { gap: 10px; }
 
-  .navbar-link { --fs-8: 14px; }
+  .navbar-link { --fs-8: 10px; }
 
 
 
@@ -1764,7 +1771,7 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 1250px screen
  */
 
-@media (min-width: 1250px) {
+@media (min-width: 1200px) {
 
   /**
    * RESET
